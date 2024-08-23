@@ -1,0 +1,19 @@
+{
+    "name": "mochamadwahyu/belajar-php-composer-hello",
+    "description": "library composer hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mochamadwahyu\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mochamad Wahyu",
+            "email": "wahyu212122@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8.0"
+    }
+}
